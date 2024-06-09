@@ -8,7 +8,7 @@ To get started, you need to install all the necessary dependencies. Ensure you h
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## Usage
 Prepare Your Data:
 
@@ -17,12 +17,13 @@ Run the Application:
 
 Launch the application by running the following command in your terminal:
 
-bash
+```bash
 streamlit run app.py
+```
 Directory Structure
 The project directory should look something like this:
 
-csharp
+```
 chat-with-csvs/
 │
 ├── data/
@@ -34,6 +35,7 @@ chat-with-csvs/
 ├── requirements.txt
 ├── README.md
 └── ...
+```
 Notes
 Ensure that the CSV files are properly formatted and placed in the data directory for the application to function correctly.
 Customize app.py as needed to tailor the application to your specific requirements.
