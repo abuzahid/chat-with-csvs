@@ -11,6 +11,9 @@ pip install -r requirements.txt
 ```
 ## Usage
 Prepare Your Data:
+keep a .env file with the following information:
+GROQ_API_KEY=your groq api key
+GROQ_MODEL="llama3-8b-8192" or you can choose any other model
 
 Place all the CSV files you want to analyze in the **data** directory.
 Run the Application:
@@ -32,6 +35,7 @@ chat-with-csvs/
 │   └── ...
 │
 ├── app.py
+├── .env
 ├── requirements.txt
 ├── README.md
 └── ...
